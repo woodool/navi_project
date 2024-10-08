@@ -8,9 +8,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-// 안녕
 // 아닌데
-// 안녕하세요
 
 public class MainActivity extends AppCompatActivity {
 
