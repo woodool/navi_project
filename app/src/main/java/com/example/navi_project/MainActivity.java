@@ -10,7 +10,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 // 안녕
 // 안녕
-
+// 아닌데
 public class MainActivity extends AppCompatActivity {
 
     @Override
