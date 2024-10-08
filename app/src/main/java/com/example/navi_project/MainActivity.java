@@ -10,9 +10,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 // 안녕
 // 아닌데
-// 아닌데
-// 안녕
-// 아닌데 아닌데
+// 안녕하세요
 
 public class MainActivity extends AppCompatActivity {
 
