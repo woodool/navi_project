@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- 배경색을 흰색으로 설정 -->
+    <corners android:radius="24dp" /> <!-- 모서리 반경을 24dp로 설정하여 둥글게 -->
+</shape>
+
+
+    <!--car_type_selection_bottom_sheet.xml 관련 xml-->
