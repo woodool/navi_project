@@ -1,0 +1,18 @@
+<!-- res/drawable/search_bar_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- 배경색 설정 -->
+    <solid android:color="#FFFFFF" />
+
+    <!-- 모서리를 둥글게 -->
+    <corners android:radius="16dp" />
+
+    <!-- 패딩 조정 -->
+    <padding android:left="8dp" android:top="8dp" android:right="8dp" android:bottom="8dp"/>
+
+    <!-- 테두리 설정 (필요할 경우) -->
+    <stroke
+        android:width="1dp"
+        android:color="#DDDDDD"/>
+</shape>

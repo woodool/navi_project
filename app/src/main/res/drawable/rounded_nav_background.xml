@@ -1,0 +1,6 @@
+<!-- res/drawable/rounded_nav_background.xml -->
+<!--settings_screen 관련 xml-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" />
+    <corners android:radius="12dp" /> <!-- 둥근 모서리 반경 설정 -->
+</shape>
