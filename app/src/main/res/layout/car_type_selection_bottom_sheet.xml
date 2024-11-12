@@ -1,0 +1,90 @@
+<!--차종 아이콘을 누르면 일어나는 ui(차종 선택화면)-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_background"
+    android:padding="24dp">
+
+    <!-- 타이틀 -->
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="차종"
+android:textSize="20sp"
+android:textColor="#000000"
+android:textStyle="bold"
+android:gravity="center"
+android:layout_gravity="center_horizontal"
+android:layout_marginBottom="24dp" />
+
+    <!-- 차종 목록 -->
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="경차"
+android:textSize="16sp"
+android:textColor="#000000"
+android:textStyle="bold"
+android:padding="8dp"
+android:layout_marginBottom="4dp" />
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="승용차\n승용차, 16인승 이하 승합차"
+android:textSize="14sp"
+android:textColor="#000000"
+    android:textStyle="bold"
+android:padding="8dp"
+android:layout_marginBottom="8dp" />
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="소형화물차\n2.5톤 미만 화물차"
+android:textSize="14sp"
+android:textColor="#000000"
+    android:textStyle="bold"
+android:padding="8dp"
+android:layout_marginBottom="8dp" />
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="중형차\n17~32인승 승합차, 2.5~5.5톤 화물차"
+android:textSize="14sp"
+android:textColor="#000000"
+    android:textStyle="bold"
+android:padding="8dp"
+android:layout_marginBottom="8dp" />
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="대형차\n33인승 이상, 5.5톤 초과 10톤 미만 화물차"
+android:textSize="14sp"
+android:textColor="#000000"
+    android:textStyle="bold"
+android:padding="8dp"
+android:layout_marginBottom="8dp" />
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="대형화물차\n10톤 이상 20톤 미만 화물차, 3축 차량"
+android:textSize="14sp"
+android:textColor="#000000"
+    android:textStyle="bold"
+android:padding="8dp"
+android:layout_marginBottom="8dp" />
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="특수화물차\n20톤 이상 화물차, 4축 이상 차량"
+android:textSize="14sp"
+android:textColor="#000000"
+    android:textStyle="bold"
+android:padding="8dp" />
+    </LinearLayout>

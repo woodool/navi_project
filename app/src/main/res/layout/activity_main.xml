@@ -1,10 +1,10 @@
-<!--내비 첫 홈화면-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_gradient"
     android:padding="16dp">
+
     <TextView
         android:id="@+id/titleText"
         android:layout_width="wrap_content"
@@ -23,12 +23,9 @@
         android:src="@drawable/human"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/titleText"
-        android:layout_marginTop="0dp"
         android:layout_marginBottom="140dp"
         android:scaleType="fitCenter"/>
 
-
-    <!--    862CF9 버튼 색깔-->
     <Button
         android:id="@+id/startButton"
         android:layout_width="326dp"
@@ -38,9 +35,5 @@
         android:backgroundTint="#862CF9"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="100dp"/>
-
-
-
-
+        android:layout_marginBottom="70dp"/>
 </RelativeLayout>
